@@ -1,0 +1,224 @@
+{
+  "Sections": [
+    {
+      "id": "1",
+      "name": "T1",
+      "subject": "Linear Algebra",
+      "strength": 32,
+      "totalQuizzes": 4
+    },
+    {
+      "id": "2",
+      "name": "T2",
+      "subject": "Software Testing",
+      "strength": 52,
+      "totalQuizzes": 3
+    },
+    {
+      "id": "3",
+      "name": "T3",
+      "subject": "Data Structures",
+      "strength": 46,
+      "totalQuizzes": 7
+    },
+    {
+      "id": "8bca",
+      "name": "T4",
+      "subject": "English",
+      "strength": 44,
+      "totalQuizzes": 4
+    },
+    {
+      "id": "746d",
+      "name": "T5",
+      "subject": "Professional Practices ",
+      "strength": 50,
+      "totalQuizzes": 3
+    },
+    {
+      "id": "01aa",
+      "name": "T4",
+      "subject": "Information Security",
+      "strength": 4,
+      "totalQuizzes": 3
+    },
+    {
+      "id": "e92e",
+      "name": "T4",
+      "subject": "Information Security",
+      "strength": 32,
+      "totalQuizzes": 5
+    },
+    {
+      "id": "39ac",
+      "name": "T8",
+      "subject": "Maths",
+      "strength": 45,
+      "totalQuizzes": 4
+    },
+    {
+      "id": "0e1c",
+      "name": "T6",
+      "subject": "Marketing",
+      "strength": 40,
+      "totalQuizzes": 4
+    }
+  ],
+  "quiz": [
+    {
+      "id": "1",
+      "name": "Ali",
+      "O_marks": 8,
+      "Section": "T3"
+    },
+    {
+      "id": "2",
+      "name": "Abdullah",
+      "O_marks": 16,
+      "Section": "T2"
+    },
+    {
+      "id": "3",
+      "name": "Zubair",
+      "O_marks": 16,
+      "Section": "T3"
+    },
+    {
+      "id": "4",
+      "name": "Rehan",
+      "O_marks": 14,
+      "Section": "T1"
+    },
+    {
+      "id": "5",
+      "name": "Saad",
+      "O_marks": 18,
+      "Section": "T3"
+    },
+    {
+      "id": "6",
+      "name": "Fahad",
+      "O_marks": 14,
+      "Section": "T1"
+    },
+    {
+      "id": "7",
+      "name": "Minahil",
+      "O_marks": 17,
+      "Section": "T2"
+    },
+    {
+      "id": "8",
+      "name": "Faizan",
+      "O_marks": 19,
+      "Section": "T1"
+    },
+    {
+      "id": "9",
+      "name": "Anusha",
+      "O_marks": 13,
+      "Section": "T1"
+    },
+    {
+      "id": "10",
+      "name": "Haris",
+      "O_marks": 11,
+      "Section": "T2"
+    }
+  ],
+  "T1": [
+    {
+      "id": "1",
+      "name": "Fahad",
+      "O_marks": 14,
+      "Section": "T1"
+    },
+    {
+      "id": "2",
+      "name": "Minahil",
+      "O_marks": 17,
+      "Section": "T2"
+    },
+    {
+      "id": "3",
+      "name": "Haris",
+      "O_marks": 11,
+      "Section": "T2"
+    },
+    {
+      "id": "4",
+      "name": "Faizan",
+      "O_marks": 19,
+      "Section": "T1"
+    },
+    {
+      "id": "5",
+      "name": "Anusha",
+      "O_marks": 13,
+      "Section": "T1"
+    },
+    {
+      "id": "6",
+      "name": "Abdullah",
+      "O_marks": 16,
+      "Section": "T2"
+    },
+    {
+      "id": "7",
+      "name": "Rehan",
+      "O_marks": 14,
+      "Section": "T1"
+    },
+    {
+      "id": "8",
+      "name": "Ali",
+      "O_marks": 8,
+      "Section": "T3"
+    },
+    {
+      "id": "9",
+      "name": "Saad",
+      "O_marks": 18,
+      "Section": "T3"
+    },
+    {
+      "id": "10",
+      "name": "Zubair",
+      "O_marks": 16,
+      "Section": "T3"
+    }
+  ],
+   "quiz2": [
+    {
+      "id": "1",
+      "name": "Fahad",
+      "O_marks": 14,
+      "Section": "T3"
+    },
+    {
+      "id": "2",
+      "name": "Minahil",
+      "O_marks": 20,
+      "Section": "T2"
+    },
+    {
+      "id": "3",
+      "name": "Faizan",
+      "O_marks": 8,
+      "Section": "T3"
+    },
+    {
+      "id": "4",
+      "name": "Anusha",
+      "O_marks": 17,
+      "Section": "T1"
+    },
+    {
+      "id": "5",
+      "name": "Haris",
+      "O_marks": 18,
+      "Section": "T1"
+    }
+    
+  ]
+}

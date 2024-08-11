@@ -1,0 +1,779 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body { 
+  background-color: #dddcdc; 
+  color: #000000; 
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  
+  font-style: normal;
+}
+
+.Home {
+  text-align: center;
+  background-image: url('t1.jpeg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh; 
+  display: flex;
+  flex-direction: column; 
+  
+}
+.Manage{
+  margin-top: 180px;
+  margin-left: 210px;
+  justify-content: center;
+  align-items: center;
+}
+
+.Home h2 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 550;
+  font-size: 28px;
+  font-style: normal;
+ 
+  margin-top:0px;
+  margin-bottom: 40px; 
+}
+
+.Home button {
+  display: inline-block;
+  background: linear-gradient(45deg, #1e1e36, #136eac); 
+  color: #fff; 
+  padding: 22px 78px; 
+  font-size: 17px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  
+  font-style: normal;
+  border: none;
+  border-radius: 37px;
+  cursor: pointer;
+  margin-top: 86px;
+  margin-left:13px; 
+  margin-right:88px;
+  transition: all 0.3s ease; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+
+button:hover {
+  background: linear-gradient(45deg, #136eac, #1a1a2e); 
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
+}
+
+
+
+
+.navbar {
+  height: 100vh;
+  width: 222px;
+  background-color: #1a1a2e;
+   
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+.links {
+  padding: 20px;
+}
+
+.links h1 {
+  font-size: 24px;
+  color: #fdfdfd; 
+  margin-bottom: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center; 
+  border-bottom: 1px solid #fdfdfd; 
+  padding-bottom: 28px; 
+}
+
+.links a {
+  display: block;
+ font-size: 15px;
+ font-weight: 400;
+  padding: 15px;
+  color: #ffffff; 
+  text-decoration: none;
+  transition: all 0.3s ease; 
+}
+
+.links a:hover {
+  background-color: #dddcdc; 
+  border-radius: 20px;
+  padding:15px;
+  margin:5px;
+  color: #000000; 
+}
+.links a.active {
+  background-color: 	#dddcdc; 
+  padding:15px;
+  border: 2px solid #eeeeee;
+  border-radius: 20px;
+  color: #000000; 
+}
+.logout {
+  margin-top: 260px; 
+}
+
+.logout a {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.logout a:hover {
+  background-color: #dddcdc;
+  border-radius: 20px;
+  color: #000000;
+}
+
+.logout svg {
+  margin-right: 8px; 
+}
+
+.ContainerC{
+  background-image: url('t3.jpeg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 720px;
+
+}
+
+.CSections {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  margin-left: 100px;
+  margin-top: 40px;
+  padding-left:40px;
+  padding-right: 19px;
+  padding-top:35px;
+  padding-bottom: 35px;
+  
+  background: #fafafa; 
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); 
+  max-width: 600px;
+
+  
+}
+
+.CSections h2 {
+  font-size: 40px;
+  color: #1a1a2e;
+  margin-bottom: 25px;
+  margin-left: 140px;
+}
+
+.CSections form {
+  display: flex;
+  margin-top: 6px;
+  flex-direction: column;
+}
+
+.CSections .form-group {
+  margin-bottom: 25px; 
+  display: flex;
+  flex-direction: column;
+}
+
+.CSections label {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600; 
+  font-style: normal;
+  font-size: 16px;
+  color: #1a1a2e; 
+  margin-bottom: 5px;
+}
+
+.CSections input {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 550px;
+  transition: border-color 0.3s ease;
+  margin: 13px auto;
+}
+
+.CSections input:focus {
+  border-color: #136eac;
+  outline: none;
+}
+
+.CSections button {
+  display: inline-block;
+  background: linear-gradient(45deg, #1a1a2e, #136eac); 
+  color: white;
+  padding: 12px 24px; 
+  font-size: 16px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  margin: 8px 0; 
+  margin-right: 20px;
+  margin-left: 7px;
+  transition: all 0.3s ease; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.CSections button:hover {
+  background: linear-gradient(45deg, #136eac, #1a1a2e); 
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
+}
+
+
+
+.success-text {
+  font-weight: 600; 
+}
+
+
+.container {
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 120px;
+  height: 90vh; 
+  background-color: #dddcdc;
+  padding-top: 50px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  max-width: 1300px;
+  margin-bottom: 20px;
+}
+
+.header h2 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  margin: 0;
+  font-size: 30px;
+}
+
+.create-button {
+  display: inline-block;
+  background: linear-gradient(45deg, #1a1a2e, #136eac); 
+  color: #fff; 
+  padding: 15px 31px; 
+  font-size: 19px;
+  border: none;
+  border-radius: 37px;
+  cursor: pointer;
+  margin: 10px 0; 
+  transition: all 0.3s ease; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.create-button2 {
+  display: inline-block;
+  background: linear-gradient(45deg, #1a1a2e, #136eac); 
+  color: #fff; 
+  padding: 10px 45px; 
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 0; 
+  transition: all 0.3s ease; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.create-button:hover {
+  background: linear-gradient(45deg, #136eac, #1a1a2e); 
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
+}
+
+.form-list-container {
+  width: 80%;
+  max-width: 1300px;
+}
+
+.form-list {
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  border-collapse: collapse;
+}
+
+.form-header  {
+  background-color: #1a1a2e;
+  color: rgb(255, 255, 255);
+  
+ 
+}
+.form-header th {
+  font-weight: 200px;
+  padding:15px;
+}
+
+
+
+.form-cell {
+  padding: 15px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  border: 1px solid #ddd;
+}
+.form-row:hover{
+  background-color: rgb(252, 249, 249);
+  cursor: pointer;
+}
+.form-row td{
+  padding: 1px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 420;
+  font-style: normal;
+  border: 1px solid #ddd;
+}
+
+
+.Grades{
+  
+  background-image: url('t5.jpeg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh; 
+  display: flex;
+  flex-direction: column; 
+
+
+}
+.UploadGrades {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  margin-left: 33%;
+  padding: 30px;
+  background: #fafafa; 
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin-top:70px;
+}
+
+.UploadGrades h2 {
+  font-size: 33px;
+  color: #1a1a2e;
+
+  margin-bottom: 28px;
+  margin-left:180px;
+}
+
+.UploadGrades form {
+  display: flex;
+  flex-direction: column;
+}
+
+.UploadGrades .form-group {
+  margin-bottom: 5px; 
+}
+
+.UploadGrades label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #1a1a2e; 
+  margin-bottom: 15px;
+  display: block;
+}
+
+.custom-file-input {
+  position: relative;
+  overflow: hidden;
+   margin-top: 5px;
+  margin-bottom: 1px; 
+}
+
+.custom-file-input .file-input {
+  position: absolute;
+  font-size: 100px;
+  opacity: 0;
+  right: 0;
+  top: 0;
+}
+
+.custom-file-input .file-label {
+  background-color: #ffffff; 
+  color: #040470; 
+  padding: 10px 20px; 
+  cursor: pointer;
+  border-radius: 5px;
+  border:1px solid #040470;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.custom-file-input .file-label:hover {
+  background-color: #1a1a2e;
+}
+
+.regular-input {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  transition: border-color 0.3s ease;
+}
+
+.regular-input:focus {
+  border-color: #136eac;
+  outline: none;
+}
+
+.UploadGrades button {
+  background: linear-gradient(45deg, #1a1a2e, #136eac); 
+  color: #fff; 
+  padding: 12px 24px; 
+  font-size: 16px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-top: 25px; 
+  transition: all 0.3s ease; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.UploadGrades button:hover {
+  background: linear-gradient(45deg, #136eac, #1a1a2e); 
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
+}
+.student-table thead{
+  font-weight: 500;
+}
+.student-table tr{
+  font-weight: 500;
+}
+.student-table tbody{
+  font-weight: 500;
+}
+
+
+
+
+.LoginContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #dddcdc; 
+  background-image: url('t1.jpeg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.LoginWrapper {
+  display: flex;
+  max-width: 950px; 
+  width: 100%;
+  margin: 0 auto;
+}
+
+.Login {
+  width: 50%; 
+  /* background: rgba(250, 250, 250, 250); */
+  background: rgba(250, 250, 250, 0.8);
+
+  padding-right: 50px;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  color: #1a1a2e;
+}
+
+.Login h2 {
+  font-size: 35px;
+  margin-top: 60px;
+  margin-bottom: 54px;
+  text-align: center;
+}
+
+.Login form {
+  display: flex;
+  flex-direction: column;
+}
+
+.Login .form-group {
+  margin-bottom: 25px;
+}
+
+.Login label {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.regular-input {
+  padding: 14px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  transition: border-color 0.3s ease;
+}
+
+.regular-input:focus {
+  border-color: #136eac;
+  outline: none;
+}
+
+.error-message {
+  color: red;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.Login button {
+  background: linear-gradient(45deg, #1a1a2e, #136eac);
+  color: #fff;
+  padding: 12px 29px;
+  font-size: 19px;
+  border: none;
+  width:450px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 500;
+  margin-top: 110px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.Login button:hover {
+  background: linear-gradient(45deg, #136eac, #1a1a2e);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.RightSide {
+  width: 50%; 
+  height: 500px;
+  background-image: url('Robot.png'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-left: 0.5px;
+}
+
+@media (max-width: 768px) {
+  .LoginWrapper {
+    flex-direction: column;
+  }
+  .Login,
+  .RightSide {
+    width: 100%;
+  }
+}
+
+.About
+{
+margin-top: 200px;
+margin-left: 600px;
+display: flex;
+
+}
+
+
+
+
+.response-details {
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-top: 10px;
+}
+
+.response-details p {
+  margin: 5px 0;
+}
+
+.response-details pre {
+  white-space: pre-wrap; 
+  overflow-x: auto; 
+  background-color: #f8f8f8;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-top: 10px;
+  max-height: 300px; 
+  overflow-y: auto; 
+}
+
+.response-container button {
+  margin-top: 30px;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.response-container button:hover {
+  background-color: #0056b3;
+}
+.rresponse-container {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+
+    font-weight: 500;
+  
+  font-style: normal;
+  max-width: 800px;
+
+  /* margin: 60px auto; */
+  
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.student-table {
+  width: 100%;
+  height:350px;
+  padding:20px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  border-collapse: collapse;
+}
+
+.student-table th, .student-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+
+.student-table th {
+  
+  background-color: #f0f0f0;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.student-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.quiz-container {
+  width: 80%;
+  margin-top:70px;
+  
+  margin-left: 360px;
+}
+.quiz-container h2
+{
+  font-style: italic;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 32px;
+}
+
+.quiz-table {
+  width: 80%;
+  border-radius: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  border-collapse: collapse;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.quiz-table th{
+  border: 1px solid #1a1a2e;
+  padding: 14px;
+  font-weight: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  text-align: left;
+}
+.quiz-table td
+{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  
+  border: 1px solid #ffffff;
+  padding: 14px;
+  text-align: left;
+
+}
+
+.quiz-table th {
+  background-color: #1a1a2e;
+  color:white;
+}
+
+.quiz-table tr{
+  background-color: white;
+
+}
+.quiz-table tbody td{
+  border: 1px solid #ddd;
+}
+
+.quiz-table tbody tr:hover {
+  background-color: rgb(252, 249, 249);
+  cursor: pointer;
+}
+
+
+
+
+
+
